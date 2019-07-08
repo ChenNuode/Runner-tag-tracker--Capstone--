@@ -4,11 +4,9 @@
 This is my project for Capstone 2019. This program demonstrates the use of computer vision and image recognition in tracking of runners as they cross a finish line. 
 
 Using computer vision techniques, the program is able to track the runners from a video stream as they get closer to the finish line, and read their number tags when they cross it, thus identifying the runner and recording down the time which they finished the run. This makes the whole process autonomous, replacing the need for officials to manually track the runner's finishing times and record their tag numbers. Potentially, it can be used to automate the runner tracking process in cross country marathons in schools.
-___
-<img src="readme_imgs/intropic.png"
-alt="Example of program runner"
-style="text-align:center; width:300px;" />
-___
+
+![](readme_imgs/intropic.png | width=300)
+
 ## Breakdown of program
 This problem can be split into 2 parts:
 
@@ -37,11 +35,9 @@ In my second draft, I preprocessed the text first before feeding it into the OCR
 4. Remove noise from image, and use adaptive thresholding to highlight the digits
 
 Only then did the performance of the OCR improve. I have segmented the code for detecting text in image in the `text_detection.py` file, I have also included sample images in the `sample_photos` folder for you to try the program on. 
-___
-<img src="readme_imgs/text_preprocess.png"
-alt="Example of text detection and preprocessing before inputing into OCR"
-style="text-align:center; width:300px;" />
-___
+
+![](readme_imgs/text_preprocess.png | width=300)
+
 ## Set up
 It is recommended that you make a [virtual environment](https://docs.python.org/3/tutorial/venv.html) and activate it first before running the program. 
 #### Libaries needed:  
