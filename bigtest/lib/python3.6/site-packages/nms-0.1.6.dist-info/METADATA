@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: nms
+Version: 0.1.6
+Summary: A Non Maximal Suppression Python Package
+Home-page: https://bitbucket.com/tomhoag/nms
+Author: Tom Hoag
+Author-email: tomhoag@gmail.com
+License: UNKNOWN
+Keywords: non maximal suppression,non maximum suppression,opencv,image processing
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+
+# nms
+
+A Python package to perform Non Maximal Suppression.
+
+
+Install:  `pip install nms`
+
+More @ [nms.ReadTheDocs.io](https://nms.readthedocs.io)
+
+### Example
+
+[opencv-text-detection](https://bitbucket.org/tomhoag/opencv-text-detection)
+
+
+### What's Next?
+
+There are not any tests.
+
+### Thanks
+
+A big thanks to Adrian Rosebrock ([@PyImageSearch](https://twitter.com/@PyImageSearch)) at [PyImageSearch](https://www.pyimagesearch.com) -- he writes some amazing and inspiring content.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
