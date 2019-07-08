@@ -1,0 +1,22 @@
+# Ignore Mac system files
+.DS_store
+
+# Ignore the dlib folder and my virtual env folder
+dlib/
+bigtest/
+
+# Ignore python cache
+.installed.cfg
+bin
+develop-eggs
+dist
+downloads
+eggs
+parts
+src/*.egg-info
+lib
+lib64
+*.pyc
+*.pyo
+build/
+dist/
