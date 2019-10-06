@@ -44,7 +44,7 @@ It is recommended that you make a [virtual environment](https://docs.python.org/
 #### Libaries needed:  
 Go ahead and install them using pip
 
- 	pip3 install imutils numpy opencv-python scipy argparse nms pytesseract scikit-image
+ 	pip3 install imutils numpy opencv-python scipy argparse nms pytesseract scikit-image cmake
 
 #### `Dlib`
 We will require this module as well, however instead of using pip to install it, please install it from source. Go to their [github page](https://github.com/davisking/dlib), clone their repository (this will take a minute or two), enter it and run `python3 setup.py install`  (this will take around 5 minutes)
