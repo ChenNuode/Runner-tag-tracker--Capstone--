@@ -4,6 +4,7 @@
 # Ignore the dlib folder and my virtual env folder
 dlib/
 bigtest/
+videos/
 
 # Ignore python cache
 .installed.cfg
