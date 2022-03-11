@@ -1,7 +1,7 @@
 # Runner tag tracker -Capstone--
 
 ## About this program
-This is my project for Capstone 2019. This program demonstrates the use of computer vision and image recognition in tracking of runners as they cross a finish line. 
+This is my project for Capstone 2019 (Final Year Project of my computer-elective program). This program demonstrates the use of computer vision and image recognition in tracking of runners as they cross a finish line. 
 
 Using computer vision techniques, the program is able to track the runners from a video stream as they get closer to the finish line, and read off their number tags when they cross it, thus identifying the runner and recording down the time which they had finished their run. This makes the whole process autonomous, replacing the need for officials to manually track the runner's finishing times and record their tag numbers. Potentially, it can be used to automate the runner tracking process in cross country marathons in schools.
 
